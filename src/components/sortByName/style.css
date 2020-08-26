@@ -1,0 +1,21 @@
+.SortByName {
+  margin-bottom: 10px;
+  padding: 0 3px; }
+  @media screen and (min-width: 768px) {
+    .SortByName {
+      padding: 0; } }
+  .SortByName-form {
+    text-align: left;
+    display: flex;
+    justify-content: space-around; }
+    @media screen and (min-width: 768px) {
+      .SortByName-form {
+        text-align: right;
+        display: block; } }
+    .SortByName-form .form-group {
+      margin-bottom: 5px; }
+      @media screen and (min-width: 768px) {
+        .SortByName-form .form-group {
+          margin-bottom: 15px; } }
+    .SortByName-form .form-control {
+      width: auto; }
